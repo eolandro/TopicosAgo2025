@@ -12,7 +12,8 @@
   - ID: R002
     Ponderacion: 20
     Reactivo: "Descripción: Usando un depurador modificar un salto para pasar una
-      validación\nRestricciones: NA."
+      validación, crear el archivo python que cree el archivo parchado a partir del
+      original\nRestricciones: NA."
 - Actividad: "Nombre: Reconstruccion del codigo fuente (Ghidra)\nDescripción: Usando
     una herramienta deben generar el codigo fuente de un ejecutable, luego debe volverse
     a compilar y se compara el resultado con el original.\nNotas: El programa ejecutable
