@@ -1,10 +1,9 @@
 #Informacion del Equipo
 ---
 Equipo:
-    -Sin control: "18590263"
-      Nombre: GERARDO DANIEL VICTORIA MORALES
-    -Sin control: "20590282"
-      Nombre: RAMIREZ ANGELES MIGUEL MATEO
-    -Sin control: "21590269"
-      Nombre: AGUAYO OLVERA JONATAN MARCOS
-
+  - NoControl: "18590263"
+    Nombre: Gerardo Daniel Victoria Morales
+  - NoControl: "20590282"
+    Nombre: Miguel Mateo Ramirez Angeles
+  - NoControl: "21590269"
+    Nombre: Jonatan Marcos Aguayo Olvera
