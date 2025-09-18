@@ -50,7 +50,7 @@ with archivo_entrada.open("rb") as f:
 
 posi = 0
 contador = 1
-mp3e = csalida / "archivo_mp3.mp3"
+mp3e = csalida / "mp31.mp3"
 jpgc = 0
 
 while posi < len(datos):
