@@ -28,4 +28,4 @@ if args.Archivo.exists():
 
         salida.write(data)
 
-    print(f"✅ Archivo parchado guardado como {salida_path}")
+    print(f"Archivo parchado guardado como {salida_path}")
