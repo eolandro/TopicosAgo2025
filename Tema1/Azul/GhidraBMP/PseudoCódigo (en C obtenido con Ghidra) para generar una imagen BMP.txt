@@ -1,0 +1,27 @@
+undefined4 FUN_00401000(void)
+
+{
+  int iVar1;
+  time_t tVar2;
+  
+  tVar2 = time((time_t *)0x0);
+  DAT_00402198 = (uint)tVar2;
+  srand(DAT_00402198);
+  DAT_0040219c = fopen(s_sample.ppm_00402018,&DAT_00402023);
+  fwrite(&DAT_00402000,1,0xf,DAT_0040219c);
+  for (DAT_00402010 = 0; DAT_00402010 < 0x1e0; DAT_00402010 = DAT_00402010 + 1) {
+    for (DAT_00402014 = 0; DAT_00402014 < 0x280; DAT_00402014 = DAT_00402014 + 1) {
+      iVar1 = rand();
+      DAT_0040200f = (undefined1)(iVar1 % 0x100);
+      fwrite(&DAT_0040200f,1,1,DAT_0040219c);
+      iVar1 = rand();
+      DAT_0040200f = (undefined1)(iVar1 % 0x100);
+      fwrite(&DAT_0040200f,1,1,DAT_0040219c);
+      iVar1 = rand();
+      DAT_0040200f = (undefined1)(iVar1 % 0x100);
+      fwrite(&DAT_0040200f,1,1,DAT_0040219c);
+    }
+  }
+  fclose(DAT_0040219c);
+  return 0;
+}
