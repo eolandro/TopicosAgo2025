@@ -1,0 +1,21 @@
+Link del Video Demostrativo:
+
+https://youtu.be/QzTfqXBrrZc?si=WK2ZpbgJh52KQkDx
+
+//====================================================================================//
+
+**Energía consumida**
+
+E = Potencia(W) × Tiempo(horas)
+
+Potencia(W) = 45W
+
+Tiempo = 0.045s = 0.0000125h 
+
+E = 45W × 0.0000125h = 0.0005625Wh
+
+**Emisiones de CO₂**
+
+Factor de emisión: 0.000444kg/Wh
+
+EmCO₂ = 0.0005625Wh × 0.000444 = 0.00001664999334kgCO2
