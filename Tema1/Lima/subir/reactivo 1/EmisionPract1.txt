@@ -1,0 +1,22 @@
+Datos usados
+
+Potencia del cargador: 180 W.
+
+Factor de emisión: 0.00000001233 Kg/Ws
+
+Fórmula:
+
+Energía (W·s) = Potencia (W) × tiempo (s)
+
+Emisión (kg) = Energía (W·s) × Factor (kg / W·s)
+
+Emisión (g) = Emisión (kg) × 1000
+
+Cálculos:
+
+Act 1 — 9:55 (595 s)
+
+Energía = 180 W × 595 s = 107100 W·s
+
+Emisión = 107100 × 0.00000001233 = 0.001320543 kg = 1.320543 g
+
