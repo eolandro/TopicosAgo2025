@@ -1,0 +1,31 @@
+powershell -Command "Measure-Command { py exarchivos.py resultado1 }"
+Days              : 0
+Hours             : 0
+Minutes           : 1
+Seconds           : 33
+Milliseconds      : 37
+Ticks             : 930376135
+TotalDays         : 0.00107682423032407
+TotalHours        : 0.0258437815277778
+TotalMinutes      : 1.55062689166667
+TotalSeconds      : 93.0376135
+TotalMilliseconds : 93037.6135
+
+Total de Co2: 0.5163586153685799
+
+powershell -Command "Measure-Command { py exogv.py resultado1 }"
+
+
+Days              : 0
+Hours             : 0
+Minutes           : 0
+Seconds           : 2
+Milliseconds      : 191
+Ticks             : 21913934
+TotalDays         : 2.5363349537037E-05
+TotalHours        : 0.000608720388888889
+TotalMinutes      : 0.0365232233333333
+TotalSeconds      : 2.1913934
+TotalMilliseconds : 2191.3934
+
+Total de Co2: 0.012162230082909899
