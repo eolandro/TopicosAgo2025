@@ -1,0 +1,9 @@
+Cargador de 65W = Consumo 0.0287kg/h = 28.7g/h
+
+Tiempo de ejecucion del programa .c = 383 milisegundos
+
+28.7g​ /3,600,000 = 7.9722×10**-6 g/ms
+
+(7.9722x100**-6 g/ms)(383ms) = 0.00305336 g
+
+Consumo de CO2: 0.00305336 g
