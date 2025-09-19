@@ -1,0 +1,3 @@
+200w × 10.10seg × (0.444 × 1000) / (1,000,000 × 3600) = 2020 × 444 / 3,600,000,000 = 2020 × 1.23333e-7 = 0.000249 kg
+La cantidad de C02 emitida durante la ejecucion de este programa de 10.10segundos en cuya computadora el voltaje es de 200w fue de 
+0.000249 kg
