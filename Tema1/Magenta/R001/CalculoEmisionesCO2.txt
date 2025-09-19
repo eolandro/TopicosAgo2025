@@ -1,0 +1,53 @@
+1) Conversión de tiempo
+
+Tiempo en segundos:
+
+			𝑡 = 19,73 s
+
+Pasar a horas (1 h = 3600 s):
+
+		     19,73
+		𝑡 = ------- = 0,00548056 h
+		      3600
+
+2) Energía consumida
+
+Fórmula:
+
+           	      E = P × t
+
+Sustituyendo:
+
+	E=45 W×0,00548056 h=0,246625 Wh
+
+En kWh:
+
+		     0,246625
+		E = --------- = 0,000246625 kWh 
+		       1000
+
+3) Emisiones de CO₂
+
+Fórmula:
+
+		E,CO₂ = E x Factor
+
+Factor de emisión: 0,000444 kg CO₂/Wh
+
+
+Sustituyendo:
+
+		𝐸𝑚𝐶𝑂₂ = 0,246625 × 0,000444 = 0,00010947 kg CO₂
+
+En gramos:
+
+			0,00010947 kg×1000=0,10947 g CO₂
+
+
+Resultados finales
+
+Tiempo: 19,73 s = 0,00548056 h
+
+Energía consumida: 0,2466 Wh ≈ 0,0002466 kWh
+
+Emisiones: 0,0001095 kg CO₂ ≈ 0,109 g CO₂
