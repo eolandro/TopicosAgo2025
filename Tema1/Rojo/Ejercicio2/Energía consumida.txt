@@ -1,0 +1,14 @@
+Energía consumida:
+
+Potencia: 45W
+Tiempo estimado: ~3 minutos para compilación + análisis con Ghidra
+Tiempo en horas: 3/60 = 0.05 horas
+E = 45W × 0.05h = 2.25Wh
+
+Emisiones de CO2:
+
+Factor de emisión: 0.000444 kg/Wh
+EmCO₂ = 2.25Wh × 0.000444 kg/Wh = 0.000999 kg CO₂
+
+Resultado final:
+0.000999 kg de CO₂ = 0.999 g de CO₂ ≈ 1.0 g de CO₂

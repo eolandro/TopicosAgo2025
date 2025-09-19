@@ -3,8 +3,12 @@ from pathlib import Path
 import argparse
 
 parser = argparse.ArgumentParser(description="Extractor de archivos")
-parser.add_argument("archivo_entrada", help="Archivo a procesar", type=Path)
+parser.add_argument("archivo", help="Archivo a procesar", type=Path)
 args = parser.parse_args()
+
+
+
+
 
 Nmagicos = {
     b'\x49\x44\x33\x02': "mp3",
@@ -24,6 +28,42 @@ Nmagicos = {
 
 }
 
+
+
+def extraer_ogv(archivo):
+    PATRON_OGG = b"OggS"
+    data = archivo.read_bytes()
+    csalida.mkdir(exist_ok=True)
+
+    idx = 0
+    stream_num = 0
+
+    while stream_num<2:
+        start = data.find(PATRON_OGG, idx)
+        if start == -1:
+            break
+
+        end = data.find(PATRON_OGG, start + 4)
+        while end != -1:
+            header = data[end:end+27]
+            if len(header) < 27:
+                break
+            header_type = header[5]
+            if header_type & 0x04:
+                end += len(header)
+                break
+            end = data.find(PATRON_OGG, end + 4)
+
+        if end == -1:
+            end = len(data)
+
+        salida = csalida / f"ogv_{stream_num}.ogv"
+        salida.write_bytes(data[start:end])
+        stream_num += 1
+        idx = end
+
+
+
 def cdir(carpeta):
     if not os.path.exists(carpeta):
         os.makedirs(carpeta)
@@ -37,20 +77,20 @@ def buscarsig(datos, posi_actual, firmas):
             proxima_pos = pos
     return proxima_pos
 
-archivo_entrada = args.archivo_entrada
-if not archivo_entrada.exists():
-    print(f"Archivo no encontrado: {archivo_entrada}")
+archivo = args.archivo
+if not archivo.exists():
+    print(f"Archivo no encontrado: {archivo}")
     exit(1)
 
 csalida = Path("extraidos")
 cdir(csalida)
 
-with archivo_entrada.open("rb") as f:
+with archivo.open("rb") as f:
     datos = f.read()
 
 posi = 0
 contador = 1
-mp3e = csalida / "mp31.mp3"
+mp3e = csalida / "archivo_mp3.mp3"
 jpgc = 0
 
 while posi < len(datos):
@@ -83,5 +123,5 @@ while posi < len(datos):
             break
     if not encontrado:
         posi += 1
-
+extraer_ogv(archivo)
 print(f"Extraccion completada. Archivos guardados en: {csalida}")
