@@ -1,0 +1,9 @@
+Cargador de 65W = Consumo 0.0287kg/h = 28.7g/h
+
+Tiempo de ejecucion del programa .py = 0.058 segundos
+
+28.7g​ /3600 = 0.00797222 g/s
+
+(0.00797222 g/s)(0.058s) = 0.000462238g
+
+Consumo de CO2: 0.000462238 g
