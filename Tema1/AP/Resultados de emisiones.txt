@@ -1,0 +1,5 @@
+Resultados de emisiones de carbono (150W, 0.444 ton CO₂e/MWh)
+
+- 0.039 s   → 0.000721 g CO₂e
+- 0.48 s    → 0.0089 g CO₂e
+- 8.796 s   → 0.163 g CO₂e

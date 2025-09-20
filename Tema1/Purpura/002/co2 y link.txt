@@ -1,0 +1,10 @@
+-> Mi laptop en 1 hora de uso con un cargador de 65 W emite 0.0289 kgCO₂e = 28.9 gCO₂e
+
+-> El programa duró 0.2812 segundos en ejecutarse
+	0.2812 / 3600 seg = 0.0000781 h
+
+-> Así que multipliqué 28.9gCO₂e × 0.0000781 h = 0.002257 gCO₂e
+
+Resultado: El programa generó aproximadamente 0.002257 gCO₂e durante su ejecución.
+
+https://drive.google.com/drive/folders/1pfjP7u2TQdkhkkZS_FYAZ-iifJS5t5Zy?usp=sharing 
