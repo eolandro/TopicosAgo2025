@@ -1,0 +1,16 @@
+Consumo en watts de la computadora: P = 240 W = 0.24 kW
+Tiempo de ejecución: t = 0.5 segundos
+Factor de emisión eléctrico (México): EF = 0.38 kg CO₂/kWh
+
+t_horas = t / 3600
+t_horas = 0.5 / 3600 ≈ 0.0001388889 horas
+
+E_kWh = P_kW * t_horas
+E_kWh = 0.24 * 0.0001388889 ≈ 3.3333e-5 kWh
+
+Calcular emisiones de CO₂:
+CO2_kg = E_kWh * EF
+CO2_kg = 3.3333e-5 * 0.38 ≈ 1.2667e-5 kg CO₂
+
+Tiempo de ejecución: 0.5 segundos
+Emisión de CO₂: 0.000012667 kg ≈ 12.667 mg CO₂
