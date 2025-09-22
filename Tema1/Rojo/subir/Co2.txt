@@ -1,0 +1,11 @@
+Energía consumida
+Potencia: 45 W
+tiempo: 3 minutis = 3/60 = 0.05h
+
+energia: E=P×t=45W×0.05h=2.25Wh
+
+Emisiones de CO₂
+Factor de emisión: 0.000444 kg/Wh
+Calculo: EmCO2​=2.25Wh×0.000444Whkg​=0.000999kg
+
+conversion a gramos: 0.000999kg×1000=0.999g≈1.0g
