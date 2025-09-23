@@ -1,1 +1,20 @@
 https://youtu.be/AhRkKhrvIhg
+
+Consumo de carbono:
+
+************* Energía consumida *************
+
+E = Potencia(W) × Tiempo(horas)
+
+Potencia(W) = 65W
+
+Tiempo de ejecución: 41.64 segundos
+
+E = 0.01156 h * 65 w
+E = 0.75183 Wh
+
+************* Emisiones de CO₂ *************
+
+Factor de emisión: 0.000444kg/Wh
+
+EmCO₂ = 0.75183 Wh × 0.000444 = 0.000333814 kgCO2
